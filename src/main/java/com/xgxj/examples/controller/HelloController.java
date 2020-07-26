@@ -15,4 +15,9 @@ public class HelloController {
   public String sayHelloFeature1(){
       return "hello,feature1";
   }
+  
+  @GetMapping("/hello/feature2")
+  public String sayHelloFeature2(){
+      return "hello,feature2";
+  }
 }
